@@ -2,3 +2,22 @@
   background-color: #212121;
   margin-left: 250px;
 }
+
+.minicartTitle {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-bottom: solid 1px #ffffff;
+  text-transform: uppercase;
+  padding: 0 0 1.4rem 0;
+}
+
+.minicartProductListContainer {
+  background-color: #424242;
+  padding: 0rem;
+  overflow-x: hidden;
+}
+
+.minicartSummary {
+  overflow-x: hidden;
+}

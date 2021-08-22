@@ -1,0 +1,14 @@
+{
+ "product-summary.shelf": {
+  "children": [
+    "product-summary-name",
+    "product-rating-inline",
+    "product-summary-image",
+    "product-summary-price",
+    "product-summary-buy-button"
+  ],
+  "props":{
+    "blockClass": "product-summary"
+  }
+}
+}

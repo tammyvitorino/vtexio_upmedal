@@ -1,15 +1,15 @@
-.flexRowContent--container-carrossel {
-  margin-top: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 60rem;
-}
-
 .flexRowContent--header {
   margin-left: auto;
   margin-right: auto;
   max-width: 850px;
   justify-content: space-between;
+}
+
+.flexRowContent--container-carrossel {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60rem;
 }
 
 .flexRow--footer-upmedal {
@@ -34,4 +34,44 @@
 
 .flexColChild--productside {
   align-items: center;
+}
+
+/* Minicart */
+.flexColChild--minicart-empty {
+  text-align: center;
+}
+
+.flexCol--minicart-col {
+  background-color: #525252;
+  border: 2px solid #59ff00;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  max-width: 370px;
+}
+
+.flexColChild--minicart-col {
+  max-width: 350px;
+}
+
+.flexRow--minicart-productinfo {
+  margin-top: 1rem;
+}
+
+.flexColChild--minicart-remove {
+  max-width: 2rem;
+  border-right: 2px solid #727272;
+  margin-right: 0.5rem;
+  padding-top: 2rem;
+}
+
+.flexColChild--minicart-image {
+  max-width: 7rem;
+  border-right: 2px solid #727272;
+  margin-right: 0.5rem;
+}
+
+.flexColChild--general-info {
+  max-width: 12rem;
+  margin-right: 0.5rem;
 }

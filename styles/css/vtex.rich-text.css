@@ -2,3 +2,11 @@
   color: #ffffff;
   margin-top: -1rem;
 }
+
+.wrapper--carrinho-vazio {
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 2rem;
+  border-bottom: solid 1px #59ff00;
+  border-top: solid 1px #59ff00;
+}

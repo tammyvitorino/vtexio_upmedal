@@ -24,7 +24,7 @@
     "props":{"blockClass": "productside"}
   },
   "flex-layout.col#productmaininfo":{
-    "children": ["product-name", "product-price", "rich-text#frete"],
+    "children": ["vtex.store-components:product-name", "product-price", "rich-text#frete"],
     "props":{"preventVerticalStretch": true}
   },
   "flex-layout.row#product01":{

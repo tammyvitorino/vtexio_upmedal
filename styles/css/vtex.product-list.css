@@ -1,0 +1,10 @@
+.productName--productname-minicart {
+  color: #59ff00;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.price--price-minicart {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
