@@ -1,0 +1,11 @@
+.list--lista-produto-render {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+  columns: 2;
+}

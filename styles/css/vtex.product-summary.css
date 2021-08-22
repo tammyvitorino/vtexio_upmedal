@@ -1,0 +1,43 @@
+.element {
+  background-color: #424242;
+  width: 100%;
+}
+
+.element--product-summary {
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+.element--product-summary:nth-child(even) {
+  position: absolute;
+}
+
+.buyButtonContainer {
+  background-color: #424242;
+  padding-bottom: 1rem;
+  right: 0;
+}
+
+.buyButton :global(.vtex-button) {
+  color: #212121;
+  background-color: #59ff00;
+  border: none;
+}
+
+.imageNormal {
+  width: 45rem;
+  height: auto;
+}
+
+.productBrand {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nameContainer {
+  min-height: 80px;
+  text-align: center;
+  align-items: center;
+  padding: 0 1rem;
+}

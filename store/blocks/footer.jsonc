@@ -1,0 +1,58 @@
+{
+ "footer": {
+  "blocks": ["footer-layout.desktop"]
+},
+  "footer-layout.desktop": {
+  "children": ["sticky-layout#footer"]
+},
+"sticky-layout#footer":{
+  "children":["flex-layout.row#footer-desktop"],
+  "props":{"position": "bottom"}
+},
+"flex-layout.row#footer-desktop": {
+  "children": [
+"flex-layout.col#footer01", "flex-layout.col#footer02", "flex-layout.col#footer03", "flex-layout.col#footer04"  ],
+  "props":{"blockClass": "footer-upmedal"}
+},
+"flex-layout.col#footer01":{
+  "children": ["rich-text#01footer"]
+},
+"rich-text#01footer":{
+"props": {
+  "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "ENTRAR",
+  "textColor": "c-on-emphasis"
+}},
+"flex-layout.col#footer02":{
+  "children": ["rich-text#02footer"]
+},
+"rich-text#02footer":{
+"props": {
+  "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "DESAFIO",
+  "textColor": "c-on-emphasis"
+}},
+"flex-layout.col#footer03":{
+  "children": ["rich-text#03footer"]
+},
+"rich-text#03footer":{
+"props": {
+  "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "LOJA",
+  "textColor": "c-on-emphasis"
+}},
+"flex-layout.col#footer04":{
+  "children": ["rich-text#04footer"]
+},
+"rich-text#04footer":{
+"props": {
+  "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "SUPORTE",
+  "textColor": "c-on-emphasis"
+}}
+
+}

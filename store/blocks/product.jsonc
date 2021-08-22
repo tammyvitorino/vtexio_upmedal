@@ -1,0 +1,89 @@
+{
+  "store.product": {
+    "children": ["flex-layout.row#mainproduct"]
+  },
+  "flex-layout.row#mainproduct":{
+    "props": {
+      "blockClass": "main-product" ,
+      "marginTop": 20
+    },
+    "children": [
+      "flex-layout.row#upproduct"
+    ]
+  },
+  "flex-layout.row#upproduct": {
+    "children": [
+      "product-images", "flex-layout.col#productside"
+    ]
+  },
+  "product-images":{
+    "props": {"displayThumbnailsArrows": true, "showNavigationArrows": true} 
+  },
+  "flex-layout.col#productside":{
+    "children": ["flex-layout.col#productmaininfo", "product-description", "buy-button"],
+    "props":{"blockClass": "productside"}
+  },
+  "flex-layout.col#productmaininfo":{
+    "children": ["product-name", "product-price", "rich-text#frete"],
+    "props":{"preventVerticalStretch": true}
+  },
+  "flex-layout.row#product01":{
+    "children":["product-specifications", 
+       "availability-subscriber"]
+  },
+ "rich-text#frete":{
+  "props": {
+    "textPosition": "LEFT",
+    "text": "FRETE GRÁTIS",
+    "blockClass": "fretegratis"
+  }},
+  "flex-layout.row#product02":{
+    "children":[
+      "sku-selector",
+      "shipping-simulator",
+      "availability-subscriber",
+      "share"]
+  },
+  /***/
+  "flex-layout.row#main": {
+    "props": {
+
+      "marginTop": 6
+    },
+    "children": [
+      "flex-layout.col#right"
+    ]
+  },
+  
+  "flex-layout.col#right": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
+    },
+    "children": [
+      
+      "product-identifier.product",
+      "product-price",
+      "flex-layout.row#qty-sku",
+      "shipping-simulator",
+      "buy-button"
+    ]
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+  "flex-layout.row#qty-sku": {
+    "children": [
+      "sku-selector",
+      "product-quantity"
+    ]
+  },
+  "sku-selector":{
+    "props":{
+      "visibility": "always"
+    }
+  }
+}

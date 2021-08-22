@@ -1,0 +1,44 @@
+.container {
+  width: 60rem;
+}
+.slideContainer {
+  width: 60rem;
+}
+.sliderLayoutContainer {
+  background-color: #303030;
+}
+
+.caretIcon {
+  margin-top: 23rem;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.75;
+  height: 0.7em;
+  display: inline-block;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+}
+
+.caretIcon:hover {
+  background-color: #424242;
+}
+
+.paginationDotsContainer--carousel {
+  margin-bottom: -2rem;
+}
+
+.paginationDot {
+  height: 0.2rem;
+  width: auto;
+}
+
+.sliderLeftArrow--carousel {
+  margin-left: 2rem;
+}
+
+.sliderRightArrow--carousel {
+  margin-right: 2rem;
+}

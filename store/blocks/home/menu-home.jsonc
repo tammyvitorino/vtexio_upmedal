@@ -1,0 +1,26 @@
+{
+
+    // Top menu
+    "tab-layout#home": { 
+        "props": {
+          "blockClass": "menu-home",
+          "defaultActiveTabId": "promo"
+       },
+       "children": [
+         "tab-list#home", "tab-content#home"
+       ]
+       },
+
+       /* Indicates which tabs will be displayed in the menu*/
+       "tab-list#home": {
+        "children": [
+            "tab-list.item#promotions", "tab-list.item#corinthians", "tab-list.item#palmeiras", "tab-list.item#signos", "tab-list.item#divertidos", "tab-list.item#guerreiros", "tab-list.item#tudo"
+        ]
+       },
+
+       /* Indicates which tabs will be rendered in home*/   
+       "tab-content#home":{
+        "children": ["tab-content.item#promotions", "tab-content.item#corinthians", "tab-content.item#palmeiras", "tab-content.item#signos", "tab-content.item#divertidos", "tab-content.item#guerreiros", "tab-content.item#tudo"
+        ]
+       }
+}

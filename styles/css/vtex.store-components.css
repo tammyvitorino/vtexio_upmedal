@@ -1,0 +1,39 @@
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  width: 600px;
+  background-color: #212121;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.autoCompleteOuterContainer {
+  background: transparent;
+}
+
+.imageElement {
+  border-radius: 20px;
+  width: 57rem;
+}
+
+.sellingPriceValue {
+  color: #59ff00;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.installmentsPrice,
+.listPrice,
+.sellingPriceLabel {
+  display: none;
+}
+
+.productNameContainer {
+  color: #ffffff;
+  font-size: 2.3 rem;
+  text-transform: uppercase;
+}
+
+.sellingPrice {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}

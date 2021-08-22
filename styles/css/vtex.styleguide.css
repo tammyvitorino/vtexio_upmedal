@@ -1,0 +1,9 @@
+.input {
+  border: 0px solid;
+  text-transform: uppercase;
+  background-color: #212121;
+}
+
+.flex {
+  justify-content: center;
+}
