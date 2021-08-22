@@ -27,7 +27,7 @@
         "list-context-renderer#wrapped"
     ],
     "props": {
-        "category": "28/41",
+        "category": "20/24",
         "maxItems": 8,
         "blockClass": "itemProduto"
     }
@@ -56,7 +56,7 @@
         "list-context-renderer#wrapped"
     ],
     "props": {
-        "category": "28/41/42",
+        "category": "20/22",
         "maxItems": 8
     }
    },
@@ -84,7 +84,7 @@
         "list-context-renderer#wrapped"
     ],
     "props": {
-        "category": "28/41/43",
+        "category": "20/23",
         "maxItems": 8
     }
    },
@@ -113,7 +113,7 @@
         "list-context-renderer#wrapped"
     ],
     "props": {
-        "category": "28/41/44",
+        "category": "20/21",
         "maxItems": 8
     }
    },
@@ -141,7 +141,7 @@
         "list-context-renderer#wrapped"
     ],
     "props": {
-        "category": "28/36",
+        "category": "20/25",
         "maxItems": 8
     }
    },
@@ -170,7 +170,7 @@
         "list-context-renderer#wrapped"
     ],
     "props": {
-        "category": "28/41/45",
+        "category": "20/27",
         "maxItems": 8
     }
    },
@@ -199,7 +199,7 @@
         "list-context-renderer#wrapped"
     ],
     "props": {
-        "category": "28",
+        "category": "20",
         "maxItems": 8
     }
    },
