@@ -1,0 +1,81 @@
+{
+ "tab-layout#product": { 
+ "props": {
+  "blockClass": "product-tabs",
+  "defaultActiveTabId": "descript"
+   },
+ "children": [
+ "tab-list#product", "tab-content#product"
+ ]
+ },
+ "tab-list#product": {
+ "children": [
+    "tab-list.item#description", "tab-list.item#reviews", "tab-list.item#shipping"
+ ],
+ "props":{"blockClass": "tabproduct"}
+ },
+ "tab-content#product":{
+ "children": [
+  "tab-content.item#description", "tab-content.item#reviews", "tab-content.item#shipping"
+ ]
+ },
+
+ /* Tab Descriptions*/
+ "tab-list.item#description": {
+ "props": {
+    "tabId": "descript",
+    "label": "DESCRIÇÃO DO PRODUTO",
+    "defaultActiveTab": true
+ }
+ },
+ "tab-content.item#description": {
+ "children": [
+    "flex-layout.row#description"
+ ],
+ "props": {
+    "tabId": "descript"
+ }
+ },
+ "flex-layout.row#description":{
+ "children":["product-description#tabproduct"]
+ },
+ "product-description#tabproduct":{
+ "props":{"blockClass": "tabproduct"}
+ },
+
+ /*Tab Reviews*/
+ "tab-list.item#reviews": {
+ "props": {
+    "tabId": "reviews",
+    "label": "DEPOIMENTOS E AVALIAÇÕES"
+ }
+ },
+ "tab-content.item#reviews": {
+ "children": [
+  "availability-subscriber"
+ ],
+ "props": {
+    "tabId": "reviews"
+ }
+ },
+ /*Tab Shipping*/
+ "tab-list.item#shipping": {
+  "props": {
+      "tabId": "shipping",
+      "label": "CALCULE O FRETE"
+  }
+ },
+ "tab-content.item#shipping": {
+  "children": [
+    "shipping-simulator#tabproduct"
+  ],
+  "props": {
+      "tabId": "shipping"
+  }
+ },
+ "shipping-simulator#tabproduct":{
+   "props":{
+     "blockClass":"tabproduct"
+   }
+ }
+}

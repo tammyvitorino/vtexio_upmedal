@@ -27,12 +27,14 @@
 
 "image#01": {
  "props": {
-   "src": "assets/img/banner01.png"
+   "src": "assets/img/banner01.png",
+   "link": "https://tammyvitorino--hiringcoders2021.myvtex.com/woodtrophie/p"
  }
 },
 "image#02": {
  "props": {
-   "src": "assets/img/banner02.png"
+   "src": "assets/img/banner02.png",
+   "link": "https://tammyvitorino--hiringcoders2021.myvtex.com/arqueiro/p"
  }
 }
 }

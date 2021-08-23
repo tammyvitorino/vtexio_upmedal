@@ -8,10 +8,14 @@
       "marginTop": 20
     },
     "children": [
-      "flex-layout.row#upproduct"
+      "flex-layout.col#product"
     ]
   },
-  "flex-layout.row#upproduct": {
+  "flex-layout.col#product":{
+    "children":["flex-layout.row#01product", "flex-layout.row#02product"],
+    "props":{"blockClass": "productcol"}
+  },
+  "flex-layout.row#01product": {
     "children": [
       "product-images", "flex-layout.col#productside"
     ]
@@ -20,70 +24,25 @@
     "props": {"displayThumbnailsArrows": true, "showNavigationArrows": true} 
   },
   "flex-layout.col#productside":{
-    "children": ["flex-layout.col#productmaininfo", "product-description", "buy-button"],
+    "children": ["flex-layout.col#productmaininfo", "buy-button"],
     "props":{"blockClass": "productside"}
   },
   "flex-layout.col#productmaininfo":{
     "children": ["vtex.store-components:product-name", "product-price", "rich-text#frete"],
     "props":{"preventVerticalStretch": true}
   },
-  "flex-layout.row#product01":{
-    "children":["product-specifications", 
-       "availability-subscriber"]
-  },
- "rich-text#frete":{
-  "props": {
-    "textPosition": "LEFT",
-    "text": "FRETE GRÁTIS",
-    "blockClass": "fretegratis"
-  }},
-  "flex-layout.row#product02":{
-    "children":[
-      "sku-selector",
-      "shipping-simulator",
-      "availability-subscriber",
-      "share"]
-  },
-  /***/
-  "flex-layout.row#main": {
+  "rich-text#frete":{
     "props": {
+      "textPosition": "LEFT",
+      "text": "FRETE GRÁTIS",
+      "blockClass": "fretegratis"
+    }},
 
-      "marginTop": 6
-    },
+  /**/
+  "flex-layout.row#02product": {
     "children": [
-      "flex-layout.col#right"
-    ]
-  },
-  
-  "flex-layout.col#right": {
-    "props": {
-      "preventVerticalStretch": true,
-      "verticalAlign": "middle"
-    },
-    "children": [
-      
-      "product-identifier.product",
-      "product-price",
-      "flex-layout.row#qty-sku",
-      "shipping-simulator",
-      "buy-button"
-    ]
-  },
-  "product-price": {
-    "props": {
-      "showSavings": true,
-      "showListPrice": true
-    }
-  },
-  "flex-layout.row#qty-sku": {
-    "children": [
-      "sku-selector",
-      "product-quantity"
-    ]
-  },
-  "sku-selector":{
-    "props":{
-      "visibility": "always"
-    }
+      "tab-layout#product"
+    ],
+    "props":{"blockClass": "tabproduct"}
   }
 }

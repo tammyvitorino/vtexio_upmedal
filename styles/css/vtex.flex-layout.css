@@ -16,7 +16,7 @@
   background-color: #424242;
 }
 
-.flexColChild {
+.flexCol--logo {
   width: 400px;
 }
 
@@ -25,6 +25,10 @@
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.flexColChild--productcol {
+  margin-bottom: 2rem;
 }
 
 .flexCol--productside {
@@ -74,4 +78,8 @@
 .flexColChild--general-info {
   max-width: 12rem;
   margin-right: 0.5rem;
+}
+
+.flexRow--tabproduct {
+  background-color: #424242;
 }

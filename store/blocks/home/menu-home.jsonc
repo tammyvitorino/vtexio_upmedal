@@ -15,7 +15,8 @@
        "tab-list#home": {
         "children": [
             "tab-list.item#promotions", "tab-list.item#corinthians", "tab-list.item#palmeiras", "tab-list.item#signos", "tab-list.item#divertidos", "tab-list.item#guerreiros", "tab-list.item#tudo"
-        ]
+        ],
+        "props":{"blockClass": "menu-home"}
        },
 
        /* Indicates which tabs will be rendered in home*/   

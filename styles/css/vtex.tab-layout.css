@@ -15,6 +15,10 @@
   border-radius: 0;
 }
 
-.listContainer {
+.listContainer--menu-home {
   background: #212121;
+}
+
+.container--product-tabs {
+  min-height: 200px;
 }

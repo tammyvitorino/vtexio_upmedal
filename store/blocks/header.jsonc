@@ -45,7 +45,8 @@
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle",
-      "width": "10rem"
+      "width": "10rem",
+      "blockClass": "logo"
     },
     "children": ["logo"]
   },
@@ -55,7 +56,7 @@
       "href": "/",
       "url": "assets/img/upmedal.png",
       "width": "150"
-    }
+  }
   },
 
   /*Make header stick*/
